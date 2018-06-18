@@ -14,8 +14,11 @@ import Config from './config/index';
 
 import Sto from 'store';
 
-Vue.use(VueRouter);
+import ElementUI from 'element-ui';
+//import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
 
+Vue.use(VueRouter);
 import { Message, loading } from 'element-ui';
 
 Vue.prototype.$loading = loading;

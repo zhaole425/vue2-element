@@ -68,20 +68,23 @@
   <div class="console-sidebar">
     <el-menu :unique-opened='true' :router='true' theme="dark" :default-active="defaultActive" class="sidebar-content">
       <div class="sidebar-fold">版本1.0.0</div>
-      <el-menu-item index="/quick"><i class="el-icon-message"></i>快速入门</el-menu-item>
+      <el-menu-item index="/quick"><i class="el-icon-message"></i>
+      权限列表
+      </el-menu-item>
+
       <el-submenu index="base">
         <template slot="title">
           <i class="el-icon-message"></i>
           基础服务
         </template>
-        <el-menu-item index="/thrmenu/article"><i class="el-icon-document"></i>三级菜单</el-menu-item>
+ 
       </el-submenu>
       <el-submenu index="user">
         <template slot="title">
-          <i class="el-icon-message"></i>
+          <i class="el-icon-setting"></i>
           用户中心
         </template>
-        <el-menu-item index="/user"><i class="el-icon-document"></i>用户管理</el-menu-item>
+        <el-menu-item index="/user"><i class="el-icon-setting"></i>用户管理</el-menu-item>
       </el-submenu>
     </el-menu>
   </div>

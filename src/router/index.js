@@ -45,7 +45,7 @@ export default [{
     name: 'Quick',
     component: Quick,
     meta: {
-      bcrumd: ['快速入门']
+      bcrumd: ['权限列表']
     }
   }, { // 基础服务 -- 三级菜单 -- 文章管理
     path: '/thrmenu/article',
